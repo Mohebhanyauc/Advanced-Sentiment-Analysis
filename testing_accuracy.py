@@ -1,4 +1,6 @@
-#Testing the model
+# Testing the model
+# Data sent should have an additional coloumn of the actual answers to each sentenses. 
+# Accuracy of the model will be tested and errors will be printed (if any). 
 from fastapi import FastAPI, File, UploadFile
 import pandas as pd
 from io import StringIO
